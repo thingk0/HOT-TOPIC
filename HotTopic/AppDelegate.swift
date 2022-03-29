@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  HotTopic
 //
-//  Created by Thing K0 on 2022/03/29.
-//
 
 import UIKit
 
@@ -14,6 +12,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+    //        sleep(UInt32(1.0))
+        
         return true
     }
 
