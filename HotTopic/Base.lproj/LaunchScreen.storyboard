@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,18 +13,21 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HotTopic_LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="D4s-29-ajy">
-                                <rect key="frame" x="82" y="323" width="250" height="250"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HotTopic_LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnX-0Y-4k6">
+                                <rect key="frame" x="12.666666666666657" y="231" width="350" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="rH3-4Z-H1R"/>
+                                    <constraint firstAttribute="height" constant="350" id="saS-yT-WsW"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="D4s-29-ajy" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="GIU-dh-fcA"/>
-                            <constraint firstItem="D4s-29-ajy" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fR0-It-l9J"/>
+                            <constraint firstItem="ZnX-0Y-4k6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="MyI-mY-LV4"/>
+                            <constraint firstItem="ZnX-0Y-4k6" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="njc-ka-eqb"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -34,9 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="HotTopic_LOGO" width="250" height="250"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="HotTopic_LOGO" width="166.66667175292969" height="166.66667175292969"/>
     </resources>
 </document>
