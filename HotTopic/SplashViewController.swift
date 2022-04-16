@@ -1,10 +1,3 @@
-//
-//  SplashViewController.swift
-//  HotTopic
-//
-//  Created by Thing K0 on 2022/03/29.
-//
-
 import UIKit
 
 class SplashViewController: UIViewController {

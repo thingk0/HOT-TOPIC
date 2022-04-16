@@ -1,16 +1,15 @@
 import UIKit
 import WebKit
 
-class NewsDetailController : UIViewController,UIWebViewDelegate {
+class NewsDetailController : UIViewController, UIWebViewDelegate {
     
     @IBOutlet weak var ImageMain: UIImageView!
     @IBOutlet weak var LabelMain: UILabel!
+    
     @IBAction func btnGoSite(_ sender: Any) {
         
         if let url = URL(string: detailUrl! ) {
-            
             UIApplication.shared.open(url, options: [:])
-            
         }
     }
     
@@ -23,12 +22,9 @@ class NewsDetailController : UIViewController,UIWebViewDelegate {
         super.viewDidLoad()
        
       if let img = imageUrl {
-      
           if let data = try? Data(contentsOf: URL(string: img)!){
               DispatchQueue.main.async {
-                  
                   self.ImageMain.image = UIImage(data: data)
-                  
              }
           }
        }

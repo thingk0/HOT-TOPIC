@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7848B4727F33DEF00E2EDA9 /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7848B4627F33DEF00E2EDA9 /* cell.swift */; };
+		A72A51C9280910E8008A2D91 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A51C8280910E8008A2D91 /* Cell.swift */; };
 		A7848B4927F3415A00E2EDA9 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7848B4827F3415A00E2EDA9 /* Launch.storyboard */; };
 		A7848B4B27F341CE00E2EDA9 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7848B4A27F341CE00E2EDA9 /* SplashViewController.swift */; };
 		A79314C327F2C90000591DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79314C227F2C90000591DB6 /* AppDelegate.swift */; };
@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		25022179612D562CE37EF0E2 /* Pods_HotTopic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotTopic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D1619DF16722B75F7EEF0C /* Pods-HotTopic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotTopic.release.xcconfig"; path = "Target Support Files/Pods-HotTopic/Pods-HotTopic.release.xcconfig"; sourceTree = "<group>"; };
-		A7848B4627F33DEF00E2EDA9 /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
+		A72A51C8280910E8008A2D91 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		A7848B4827F3415A00E2EDA9 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		A7848B4A27F341CE00E2EDA9 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		A79314BF27F2C90000591DB6 /* HotTopic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotTopic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,9 +84,9 @@
 				A79314D027F2C90100591DB6 /* Info.plist */,
 				A79314D627F2CB4E00591DB6 /* NewsViewController.swift */,
 				A79314D827F2CB6500591DB6 /* NewsDetailController.swift */,
-				A7848B4627F33DEF00E2EDA9 /* cell.swift */,
 				A7848B4827F3415A00E2EDA9 /* Launch.storyboard */,
 				A7848B4A27F341CE00E2EDA9 /* SplashViewController.swift */,
+				A72A51C8280910E8008A2D91 /* Cell.swift */,
 			);
 			path = HotTopic;
 			sourceTree = "<group>";
@@ -215,12 +215,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7848B4727F33DEF00E2EDA9 /* cell.swift in Sources */,
 				A79314D927F2CB6500591DB6 /* NewsDetailController.swift in Sources */,
 				A79314C327F2C90000591DB6 /* AppDelegate.swift in Sources */,
 				A7848B4B27F341CE00E2EDA9 /* SplashViewController.swift in Sources */,
 				A79314C527F2C90000591DB6 /* SceneDelegate.swift in Sources */,
 				A79314D727F2CB4E00591DB6 /* NewsViewController.swift in Sources */,
+				A72A51C9280910E8008A2D91 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

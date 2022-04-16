@@ -1,10 +1,8 @@
 import UIKit
 
-class cell : UITableViewCell {
+class Cell : UITableViewCell {
     
-    
-
     @IBOutlet weak var labelText: UILabel!
-    
+    @IBOutlet weak var thumbNail: UIImageView!
     
 }
