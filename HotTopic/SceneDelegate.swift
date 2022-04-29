@@ -12,14 +12,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
-        // 스토리보드 찾기
-        let storyboard = UIStoryboard(name: "Launch", bundle: nil)
-        let initialViewController = storyboard.instantiateViewController(withIdentifier: "SplashViewController")
-        
-        // rootViewController 설정하기
-        self.window?.rootViewController = initialViewController
-        self.window?.makeKeyAndVisible()
-        
+     
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
